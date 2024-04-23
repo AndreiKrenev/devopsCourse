@@ -49,7 +49,7 @@ ingress:
   hosts:
     - host: ad8cfde9064344fba851e9f9330af609-1739824365.us-east-1.elb.amazonaws.com
       paths:
-        - path: /main.php
+        - path: /main.html
           pathType: ImplementationSpecific
   tls: []
   #  - secretName: chart-example-tls
